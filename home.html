@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      body {
+        min-height: 100vh;
+        background-color: #081b29;
+      }
+
+      .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 4rem;
+        margin: 32px auto;
+        box-shadow: 0 0 1.5rem #0ef;
+        color: #fff;
+        padding: 1rem 2rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        font-size: 1.4rem;
+        color: #fff;
+        margin-bottom: 6rem;
+      }
+
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h3 class="logo">Smart Login System</h3>
+      <h3><a class="logout">Log out</a></h3>
+    </nav>
+
+    <div class="welcome">
+      <h1 id="welcome-message"></h1>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>
